@@ -3,7 +3,7 @@ from googleapiclient.errors import HttpError
 import pandas as pd
 
 # 🔐 Setup YouTube client
-api_key = "AIzaSyDT05bX-upnjqYOKszPzbDNUG0tG378aag" 
+api_key = "your own api key" #you can get from google developer sign in
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def get_channel_ids(query="data science", max_results=10): #query helps search the youtube channel according to the type of channel enter in query
